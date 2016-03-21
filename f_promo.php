@@ -3,14 +3,14 @@
 			<div class="more">
 			<h3>Lista de Precios!</h3>
 			<p>
-			<form action="enviarMail.php" method="POST">
+			<form action="enviarMail.php" method="get">
 			Solicitamos sus Datos para mantenerlo al tanto de nuevas actualizaciones.	
 			</p>
-			<input type="text" required value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
-			<input type="text" required value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+			<input type="text" name="Telefono"required value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+			<input type="mail" name="mail" required value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
 			</div>
-			<a  type="submit" target="_blank" class="read-more info-left">				
-					<input type="submit" target="_blank" class="read-more info-left" value="DESCARGAR" ></a>
+				
+					<input type="submit" target="_blank" class="read-more info-left" value="DESCrARGAR" >		
 
 			</form>
 
